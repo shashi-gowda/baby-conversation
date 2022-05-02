@@ -1,4 +1,4 @@
-#baby keeps asking questions untill it gets answer starting with just because
+#baby keeps asking questions untill it gets answer starting with just like that
 
 from random import choice
 
@@ -7,9 +7,9 @@ questions=['why the sky is blue? ', 'why lord shiva called the greatest? ',
 
 question=choice(questions)
 
-answer=input(question).lower().strip()
+answer=input().lower().strip()
 
-while answer.startswith("just because")!=True:
+while answer.startswith("just like that")!=True:
     answer=input("why?: ").strip().lower()
     
     
